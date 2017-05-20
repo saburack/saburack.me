@@ -73,7 +73,6 @@ aside {
   color: #33B876;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -82,15 +81,13 @@ aside {
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: #222222;
-  text-transform: uppercase;
+  color: #33B876;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #33B876;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -139,7 +136,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #00BFFF;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -157,7 +154,7 @@ header {
   background-position: center;
   background-image: url('file:///Users/saburack/Desktop/Dartmouth/me%20on%20trips.jpg');
   text-align: center;
-  color: white;
+  color: #33B876;
 }
 header .header-content {
   position: relative;
@@ -177,7 +174,7 @@ header .header-content .header-content-inner hr {
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0,191,255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
 }
@@ -224,7 +221,7 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 .portfolio-box {
-  position: relative;
+  position: static;
   display: block;
   max-width: 650px;
   margin: 0 auto;
