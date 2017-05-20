@@ -152,7 +152,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('file:///Users/saburack/Desktop/Dartmouth/me%20on%20trips.jpg');
+  background-image: url('img/me on trips.jpg');
   text-align: center;
   color: #33B876;
 }
@@ -221,7 +221,7 @@ header .header-content .header-content-inner p {
   margin-bottom: 0;
 }
 .portfolio-box {
-  position: relative;
+  position: static;
   display: block;
   max-width: 650px;
   margin: 0 auto;
