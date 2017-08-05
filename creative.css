@@ -9,7 +9,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Avenir Next Condensed', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
   border-color: #00BFFF;
@@ -36,7 +36,7 @@ h4{
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -408,4 +408,14 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.icons ul {
+    margin: 0 auto;
+    text-align: center;
+}
+.icons li {
+  font-size: 60px;  
+  display: inline-block;
+  vertical-align: top;
+
 }
